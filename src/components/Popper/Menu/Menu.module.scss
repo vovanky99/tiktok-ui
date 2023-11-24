@@ -8,6 +8,10 @@
 .menu-popper {
     padding-bottom: 8px;
 }
+
+.menu-scollball {
+    overflow-y: auto;
+}
 .menu-item {
     line-height: 1.6rem;
     padding: 11px 16px;
@@ -27,6 +31,7 @@
 .header {
     position: relative;
     height: 50px;
+    flex-shrink: 0;
 }
 .back-btn {
     width: 50px;
