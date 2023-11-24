@@ -11,7 +11,7 @@ import styles from './Search.module.scss';
 import { SearchIcon } from '~/components/Icons';
 import { useDebounce } from '~/hooks';
 
-import * as searchServices from '~/apiServices/searchServices';
+import * as searchServices from '~/Services/searchServices';
 
 const cx = classNames.bind(styles);
 
