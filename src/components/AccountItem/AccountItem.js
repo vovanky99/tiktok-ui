@@ -9,7 +9,7 @@ import PropTypes from 'prop-types';
 
 const cx = classNames.bind(Style);
 
-function AccountItem({ data }) {
+function AccountItems({ data }) {
     return (
         <Link to={`/@${data.nickname}`} className={cx('wrapper')}>
             <Images className={cx('avatar')} src={data.avatar} alt={data.avatar} />
@@ -24,8 +24,8 @@ function AccountItem({ data }) {
     );
 }
 
-AccountItem.propTypes = {
+AccountItems.propTypes = {
     data: PropTypes.object.isRequired,
 };
 
-export default AccountItem;
+export default AccountItems;
