@@ -23,7 +23,7 @@ function Sidebar() {
             </Menu>
             <div>
                 <SuggetsAccounts label={'suggested accounts'} />
-                <SuggetsAccounts label={'following accounts'} />
+                {/* <SuggetsAccounts label={'following accounts'} /> */}
             </div>
         </aside>
     );
